@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Vim
+.#*
+*.swp
+Session.vim
+tags
+
+# The rest editors
+.idea
+.atomrc.cson
+.vscode
+
+# ack
+.ackrc
+
+# dotenv
+.envrc
+
+# asdf
+.tool-versions
+
+# Elixir LSP
+.elixir_ls
+
+# My private directory in each project
+# The name 'z_xxx' is to make sure it's the last directory
+z_source
