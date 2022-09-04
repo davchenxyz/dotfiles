@@ -11,17 +11,17 @@ DOTFILES_ROOT=$(pwd)
 DOTFILES_LOCAL_ROOT="$DOTFILES_ROOT/../dotfiles-local"
 
 # Zsh
-ln -sf $DOTFILES_ROOT/.zshrc $HOME/.zshrc
+ln -sf $DOTFILES_ROOT/zshrc $HOME/.zshrc
 
 # Git
-ln -sf $DOTFILES_ROOT/.gitignore_global $HOME/.gitignore
-ln -sf $DOTFILES_ROOT/.gitconfig $HOME/.gitconfig
+ln -sf $DOTFILES_ROOT/gitignore_global $HOME/.gitignore
+ln -sf $DOTFILES_ROOT/gitconfig $HOME/.gitconfig
 
 # Polipo
-ln -sf $DOTFILES_ROOT/.polipo ~/.polipo
+# ln -sf $DOTFILES_ROOT/.polipo ~/.polipo
 
 # PostgreSQL
-ln -sf $DOTFILES_ROOT/.psqlrc $HOME/.psqlrc
+ln -sf $DOTFILES_ROOT/psqlrc $HOME/.psqlrc
 
 # Install dotfiles-local
 if [ -d "$DOTFILES_LOCAL_ROOT" ]; then

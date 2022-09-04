@@ -112,6 +112,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # asdf
 #
 
+# The plugins(asdf) has a bug so I mannually load script from homebrew
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 # Set Kerl configs
