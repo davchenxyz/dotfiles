@@ -26,6 +26,9 @@ ln -sf $DOTFILES_ROOT/psqlrc $HOME/.psqlrc
 # iTerm2
 ln -sf $DOTFILES_ROOT/iterm2 $HOME/.iterm2
 
+# Neovim
+ln -sf $DOTFILES_ROOT/nvim $HOME/.config/nvim
+
 # Install dotfiles-local
 if [ -d "$DOTFILES_LOCAL_ROOT" ]; then
   cd $DOTFILES_LOCAL_ROOT

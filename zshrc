@@ -142,9 +142,6 @@ alias v="nvim"
 alias vi="nvim"
 alias vim="nvim"
 
-# # Use Neovim nightly
-# export PATH="/Users/david/nvim-osx64/bin:$PATH"
-
 #
 # Node, use active LTS
 #
